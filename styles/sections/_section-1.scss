@@ -2,8 +2,10 @@
     padding: 40px 375px 0 375px;
     
     @media (max-width: 1440px) {
-        padding: 40px 200px 0 200px;
+        padding: 40px 100px 0 100px;
     }
+    position: relative;
+
 
     header {
         height: 62px;
@@ -47,7 +49,140 @@
 
     main {
         height: calc(100vh - 62px - 40px);
-        background-color: red;
+        display: flex;
+        margin-top: 80px;
+
+        .left-container {
+            h1 {
+                font-family: $fw-400;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 80px;
+                line-height: 134%;
+                letter-spacing: -2.50105px;
+                color: #444444;
+            }
+
+            .line {
+                margin: 8px 0px 12px;
+                width: 54px;
+                height: 6px;
+                background-color:  #FF7132;
+                
+            }
+
+            p {   
+                margin-bottom: 30px;         
+                font-family: $fw-400;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 22px;
+                line-height: 200%;
+                color: #666666;
+
+            }
+            
+              
+
+            .left-btn {
+                background-color: #FF7132;
+                border: none;
+                border-radius: 40px;
+                padding: 19px 50px;
+                margin-right: 25px;
+            }
+
+            .right-btn {
+                border: 3px solid #FF7132;
+                border-radius: 40px;
+                padding: 19px 50px;
+            }
+
+        }
+        
+        
+        .right-container {
+            margin-left: 100px;
+            .key-img1{
+                width: 561px;
+                height: 561px;
+                position: absolute;
+                right: 90px;
+            }
+
+            .battery {
+                display: flex;
+                align-items: center;
+                width: 300px;
+                height: 100px;
+                background: rgba(255, 255, 255, 0.8);
+                box-shadow: 10px 20px 100px rgba(136, 136, 136, 0.2);
+                backdrop-filter: blur(50px);
+                border-radius: 15px;
+                position: absolute;
+                top: 560px;
+                right: 90px;
+
+                .battery-box {
+                    width: 70px;
+                    height: 70px;
+                    background: rgba(255, 255, 255, 0.6);
+                    box-shadow: 10px 20px 100px rgba(136, 136, 136, 0.2);
+                    backdrop-filter: blur(50px);
+                    border-radius: 10px;
+                    margin: 16px;
+
+                    img {
+                        margin: 10px 12px;
+                    }
+                }
+            }
+            
+        }
+        
+    }
+
+    .sircl1 {
+        width: 16px;
+        height: 16px;
+        background-color: #FAD36C;
+        border-radius: 100%;
+        position: absolute;
+        top: 355px;
+        left: 670px;
+    }
+
+
+    .sircl2 {
+        width: 24px;
+        height: 24px;
+        background-color:  #13CB73;
+        border-radius: 100%;
+        position: absolute;
+        top: 755px;
+        left: 800px;
+    }
+
+
+    .sircl3 {
+        width: 22px;
+        height: 22px;
+        background-color:  #8B6FFF;
+        border-radius: 100%;
+        position: absolute;
+        top: 505px;
+        left: 1280px;
+    }
+
     
+
+    .color-box {
+        width: 720px;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        background-color: F9F8F9;
+        ;
     }
 }

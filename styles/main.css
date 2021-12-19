@@ -27,11 +27,12 @@
 
 .section-1 {
   padding: 40px 375px 0 375px;
+  position: relative;
 }
 
 @media (max-width: 1440px) {
   .section-1 {
-    padding: 40px 200px 0 200px;
+    padding: 40px 100px 0 100px;
   }
 }
 
@@ -86,7 +87,137 @@
 
 .section-1 main {
   height: calc(100vh - 62px - 40px);
-  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 80px;
+}
+
+.section-1 main .left-container h1 {
+  font-family: "Poppins Regular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 134%;
+  letter-spacing: -2.50105px;
+  color: #444444;
+}
+
+.section-1 main .left-container .line {
+  margin: 8px 0px 12px;
+  width: 54px;
+  height: 6px;
+  background-color: #FF7132;
+}
+
+.section-1 main .left-container p {
+  margin-bottom: 30px;
+  font-family: "Poppins Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 200%;
+  color: #666666;
+}
+
+.section-1 main .left-container .left-btn {
+  background-color: #FF7132;
+  border: none;
+  border-radius: 40px;
+  padding: 19px 50px;
+  margin-right: 25px;
+}
+
+.section-1 main .left-container .right-btn {
+  border: 3px solid #FF7132;
+  border-radius: 40px;
+  padding: 19px 50px;
+}
+
+.section-1 main .right-container {
+  margin-left: 100px;
+}
+
+.section-1 main .right-container .key-img1 {
+  width: 561px;
+  height: 561px;
+  position: absolute;
+  right: 90px;
+}
+
+.section-1 main .right-container .battery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: 10px 20px 100px rgba(136, 136, 136, 0.2);
+          box-shadow: 10px 20px 100px rgba(136, 136, 136, 0.2);
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  border-radius: 15px;
+  position: absolute;
+  top: 560px;
+  right: 90px;
+}
+
+.section-1 main .right-container .battery .battery-box {
+  width: 70px;
+  height: 70px;
+  background: rgba(255, 255, 255, 0.6);
+  -webkit-box-shadow: 10px 20px 100px rgba(136, 136, 136, 0.2);
+          box-shadow: 10px 20px 100px rgba(136, 136, 136, 0.2);
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  border-radius: 10px;
+  margin: 16px;
+}
+
+.section-1 main .right-container .battery .battery-box img {
+  margin: 10px 12px;
+}
+
+.section-1 .sircl1 {
+  width: 16px;
+  height: 16px;
+  background-color: #FAD36C;
+  border-radius: 100%;
+  position: absolute;
+  top: 355px;
+  left: 670px;
+}
+
+.section-1 .sircl2 {
+  width: 24px;
+  height: 24px;
+  background-color: #13CB73;
+  border-radius: 100%;
+  position: absolute;
+  top: 755px;
+  left: 800px;
+}
+
+.section-1 .sircl3 {
+  width: 22px;
+  height: 22px;
+  background-color: #8B6FFF;
+  border-radius: 100%;
+  position: absolute;
+  top: 505px;
+  left: 1280px;
+}
+
+.section-1 .color-box {
+  width: 720px;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: F9F8F9;
 }
 
 body {
