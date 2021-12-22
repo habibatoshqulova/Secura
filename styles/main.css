@@ -27,7 +27,7 @@
 
 .section-1 {
   padding: 40px 375px 0 375px;
-  height: 1080px;
+  height: auto;
   position: relative;
 }
 
@@ -224,17 +224,16 @@
 }
 
 .section-2 {
-  height: 970px;
+  height: auto;
 }
 
 @media (max-width: 1440px) {
   .section-2 {
-    padding: 40px 100px 0 100px;
+    padding: 90px 100px 0 100px;
   }
 }
 
 .section-2 .top-text {
-  margin-top: 160px;
   font-weight: 600;
   font-size: 54px;
   line-height: 140%;
@@ -297,6 +296,16 @@
   text-align: center;
   color: #666666;
   text-decoration: none;
+}
+
+.section-2 {
+  height: auto;
+}
+
+@media (max-width: 1440px) {
+  .section-2 {
+    padding: 0px 100px 0 100px;
+  }
 }
 
 body {

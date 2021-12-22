@@ -1,11 +1,10 @@
 .section-2 {
-    height: 970px;
+    height: auto;
     @media (max-width: 1440px) {
-        padding: 40px 100px 0 100px;
+        padding: 90px 100px 0 100px;
     }
     
     .top-text {
-        margin-top: 160px;
         font-weight: 600;
         font-size: 54px;
         line-height: 140%;
